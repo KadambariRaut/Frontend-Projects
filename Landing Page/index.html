@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>AnimeVerse</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#characters">Characters</a></li>
+                <li><a href="#episodes">Episodes</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="Project">
+        <div class="container">
+            <h1 class="sub-title">Project</h1>
+            <div class="services-list">
+                <div>
+                    <img src="./perspective_matte-241-128x128.png" width="90px" height="90px">
+                    <h2>Portfolio</h2>
+                    <p>"Passionate about web development, I crafted my own portfolio website using a blend
+                        of HTML, CSS, and JavaScript. Through this project, I honed my skills in front-end
+                        development and design, creating an intuitive and visually appealing showcase of my
+                        work."</p>
+
+                    <!-- <a href="#">Learn More</a> -->
+                    <br>
+                    <button class="github-btn">GitHub</button>
+
+                </div>
+                <div>
+                    <img src="./perspective_matte-192-128x128.png" width="100px" height="100px">
+                    <h2>Weather Website</h2>
+                    <p>Developed a responsive weather forecast website using HTML, CSS, and
+                        JavaScript.
+                        Implemented real-time temperature.</p>
+                    <!-- <a href="#">Learn More</a> -->
+                    <br>
+                    <button class="github-btn">
+                        GitHub
+                    </button>
+                </div>
+                <div>
+                    <img src="./perspective_matte-455-128x128.png" width="100px" height="100px">
+                    <h2>Landing Page</h2>
+                    <p>Currently Working on it</p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+            </div>
+               
+        </div>
+    </div>
+    <section id="about">
+        <h2>About</h2>
+        <p>Welcome to Anime Land, where your favorite anime stories come to life!</p>
+    </section>
+    <section id="characters">
+        <h2>Characters</h2>
+        <div class="character">
+            <img src="character1.jpg" alt="Character 1">
+            <h3>Character 1</h3>
+            <p>Description of Character 1.</p>
+        </div>
+        <div class="character">
+            <img src="character2.jpg" alt="Character 2">
+            <h3>Character 2</h3>
+            <p>Description of Character 2.</p>
+        </div>
+        <!-- Add more characters as needed -->
+    </section>
+    <section id="episodes">
+        <h2>Episodes</h2>
+        <ul>
+            <li>Episode 1: Title</li>
+            <li>Episode 2: Title</li>
+            <li>Episode 3: Title</li>
+            <!-- Add more episodes as needed -->
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="submit.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Anime Land</p>
+    </footer>
+</body>
+</html>
